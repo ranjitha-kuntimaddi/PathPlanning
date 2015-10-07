@@ -1,0 +1,22 @@
+% Path-Pro.
+ProgName:               Test
+CuttingMode:            1
+ConstAngleCutting:      180
+FlyByRadius:            1
+T_IPO:                  4
+
+% Prefiltering
+StartSphereR:           4
+EndSphereR:             4
+PreFilterMaxDelta:      10
+PreFilterMaxAngle:      50
+
+% Scaling
+PathSpeed:              4
+
+% Thin Out
+ThinOutAngle:           180
+ThinOutDistance:        1
+
+% Path Sequence (optional) in the form (StartIndex,ThinOutAngle,ThinOutDistance)
+% please use only ',' or ' ' for deliminator

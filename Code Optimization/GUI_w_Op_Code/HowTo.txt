@@ -1,0 +1,9 @@
+HowTo
+
+- Open "main.m" in MATLAB
+- Add class to path (Folders: "@cFrame", "@cPose" and "@cTrack")
+- Add folder "Pathes", which contains the recorded tracks, to path
+- Run main.m
+- While the program is running you have to decide for one use case:
+	Use case 1: press "c" for cutting -> Outcome is a KRL-program
+	Use case 2: press "s" for sewing  -> Outcome is a .csv file with poses in a 4ms time stamp
